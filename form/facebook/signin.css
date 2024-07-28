@@ -1,0 +1,44 @@
+.signin{
+    padding-top: 600px;
+    padding: 400px;
+    width: 200px;
+    text-align: center;
+    display: grid;
+    row-gap: 10px;
+}
+.facebookdetail{
+    display: grid;
+    place-items: center;
+    border-style: none;
+    width: 200px;
+    padding: 20px;
+
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    margin: auto;
+    padding: 0 0 14px 0;
+    width: 396px;
+    height: 400px;
+    background-color: #FFFFFF;
+}
+body{
+    background: #f0f2f5;
+}
+   
+.firstline{
+    display: inline-block;
+    width: 170px;
+    margin-right: 5px;
+
+  
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+}
+.secondline{
+    display: inline-block;
+    width: 170px;
+    margin-left: 5px;
+ box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+}
+.place::placeholder{
+    padding-left: 10px;
+}
